@@ -1,10 +1,7 @@
+/* जर तुमच्याकडे Tailwind v3 असेल तर हे वापरा */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-body {
-  background-color: #000000 !important;
-  color: #ffffff !important;
-  margin: 0;
-  padding: 0;
-}
+/* किंवा जर तुमच्याकडे Tailwind v4 असेल तर फक्त हे वापरा */
+@import "tailwindcss";
